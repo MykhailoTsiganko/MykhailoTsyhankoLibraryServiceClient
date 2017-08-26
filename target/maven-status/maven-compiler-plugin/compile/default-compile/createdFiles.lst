@@ -1,0 +1,5 @@
+com\epam\lab\web\soap\Book.class
+com\epam\lab\web\soap\ExchangeBook.class
+com\epam\lab\web\soap\RemoveBook.class
+com\epam\lab\web\soap\package-info.class
+com\epam\lab\web\soap\AddBook.class

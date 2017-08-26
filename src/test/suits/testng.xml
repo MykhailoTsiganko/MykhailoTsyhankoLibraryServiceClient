@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+    <!-- Suite -->
+    <test name="Test">
+        <classes>
+            <class name="com.epam.lab.web.UpdateApiTest"/>
+            <class name="com.epam.lab.web.SearchAutorListApiTest"/>
+            <class name="com.epam.lab.web.SearchBookApiTest"/>
+            <class name="com.epam.lab.web.ExchangeApiTest"/>
+        </classes>
+    </test>
+    <!-- Test -->
+</suite>
