@@ -1,2 +1,6 @@
-com\epam\lab\web\utils\LoggerListener.class
 com\epam\lab\web\utils\ReportAppender.class
+com\epam\lab\web\SearchBookApiTest.class
+com\epam\lab\web\SearchAutorListApiTest.class
+com\epam\lab\web\UpdateApiTest.class
+com\epam\lab\web\ExchangeApiTest.class
+com\epam\lab\web\utils\LoggerListener.class

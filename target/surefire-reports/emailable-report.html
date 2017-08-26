@@ -1,9 +1,51 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Command line suite</th></tr><tr><td><a href="#t0">Command line test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">7 973</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.epam.lab.web.ExchangeApiTest</td><td><a href="#m0">exchangeOneBookTwoTimesRest</a></td><td rowspan="1">1503736196347</td><td rowspan="1">1036</td></tr><tr class="passedeven"><td><a href="#m1">exchangeOneBookTwoTimesSoap</a></td><td rowspan="1">1503736197621</td><td rowspan="1">961</td></tr><tr class="passedodd"><td rowspan="4">com.epam.lab.web.SearchAutorListApiTest</td><td><a href="#m2">getAuthorsBooksFaultNumberRest</a></td><td rowspan="1">1503736199313</td><td rowspan="1">129</td></tr><tr class="passedodd"><td><a href="#m3">getAuthorsBooksFaultNumberSoap</a></td><td rowspan="1">1503736200359</td><td rowspan="1">116</td></tr><tr class="passedodd"><td><a href="#m4">getFiveAuthorsBooksRest</a></td><td rowspan="1">1503736200865</td><td rowspan="1">100</td></tr><tr class="passedodd"><td><a href="#m5">getFiveAuthorsBooksSoap</a></td><td rowspan="1">1503736203110</td><td rowspan="1">100</td></tr><tr class="passedeven"><td rowspan="2">com.epam.lab.web.SearchBookApiTest</td><td><a href="#m6">addBookAndGetItBack</a></td><td rowspan="1">1503736203488</td><td rowspan="1">122</td></tr><tr class="passedeven"><td><a href="#m7">testSearchWithWrongBookNameRestAndSoap</a></td><td rowspan="1">1503736203610</td><td rowspan="1">266</td></tr><tr class="passedodd"><td rowspan="2">com.epam.lab.web.UpdateApiTest</td><td><a href="#m8">addThreeBookAndDeleteThemWithRestService</a></td><td rowspan="1">1503736203876</td><td rowspan="1">181</td></tr><tr class="passedodd"><td><a href="#m9">addThreeBookAndDeleteThemWithSoapService</a></td><td rowspan="1">1503736204058</td><td rowspan="1">234</td></tr></tbody></table><h2>Command line test</h2><h3 id="m0">com.epam.lab.web.ExchangeApiTest#exchangeOneBookTwoTimesRest</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.epam.lab.web.soap.ServiceException
-	at com.epam.lab.web.rest.LibraryRESTServiceClient.buildException(LibraryRESTServiceClient.java:207)
-	at com.epam.lab.web.rest.LibraryRESTServiceClient.exchangeBook(LibraryRESTServiceClient.java:156)
-	at com.epam.lab.web.ExchangeApiTest.exchangeOneBookTwoTimesRest(ExchangeApiTest.java:28)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.epam.lab.web.ExchangeApiTest#exchangeOneBookTwoTimesSoap</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.epam.lab.web.soap.ServiceException: Fault occurred while processing.
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">2,797</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.epam.lab.web.ExchangeApiTest</td><td><a href="#m0">tryToExchangeOneBookTwoTimesRest</a></td><td rowspan="1">1503749381900</td><td rowspan="1">79</td></tr><tr class="passedeven"><td><a href="#m1">tryToExchangeOneBookTwoTimesSoap</a></td><td rowspan="1">1503749382057</td><td rowspan="1">78</td></tr><tr class="passedodd"><td rowspan="4">com.epam.lab.web.SearchAutorListApiTest</td><td><a href="#m2">getAuthorsBooksFaultNumberRest</a></td><td rowspan="1">1503749380635</td><td rowspan="1">109</td></tr><tr class="passedodd"><td><a href="#m3">getAuthorsBooksFaultNumberSoap</a></td><td rowspan="1">1503749380994</td><td rowspan="1">94</td></tr><tr class="passedodd"><td><a href="#m4">getFiveAuthorsBooksRest</a></td><td rowspan="1">1503749381307</td><td rowspan="1">62</td></tr><tr class="passedodd"><td><a href="#m5">getFiveAuthorsBooksSoap</a></td><td rowspan="1">1503749381572</td><td rowspan="1">47</td></tr><tr class="passedeven"><td rowspan="2">com.epam.lab.web.SearchBookApiTest</td><td><a href="#m6">addBookAndGetItBack</a></td><td rowspan="1">1503749381713</td><td rowspan="1">62</td></tr><tr class="passedeven"><td><a href="#m7">testSearchWithWrongBookNameBouthRestAndSoap</a></td><td rowspan="1">1503749381775</td><td rowspan="1">125</td></tr><tr class="passedodd"><td rowspan="2">com.epam.lab.web.UpdateApiTest</td><td><a href="#m8">addThreeBookAndDeleteThemWithRestService</a></td><td rowspan="1">1503749379432</td><td rowspan="1">546</td></tr><tr class="passedodd"><td><a href="#m9">addThreeBookAndDeleteThemWithSoapService</a></td><td rowspan="1">1503749379978</td><td rowspan="1">469</td></tr></tbody></table><h2>Test</h2><h3 id="m0">com.epam.lab.web.ExchangeApiTest#tryToExchangeOneBookTwoTimesRest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+<br/>2017-08-26 15:09:41 INFO  UpdateApiTest:21 - tryToExchangeOneBookTwoTimesRest test
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:136 - exchangeBook
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:140 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/exchange/Sherlock%20Hol
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:136 - exchangeBook
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:140 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/exchange/Sherlock%20Hol
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.epam.lab.web.soap.ServiceException
+	at com.epam.lab.web.rest.LibraryRESTServiceClient.buildException(LibraryRESTServiceClient.java:206)
+	at com.epam.lab.web.rest.LibraryRESTServiceClient.exchangeBook(LibraryRESTServiceClient.java:155)
+	at com.epam.lab.web.ExchangeApiTest.tryToExchangeOneBookTwoTimesRest(ExchangeApiTest.java:31)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.epam.lab.web.ExchangeApiTest#tryToExchangeOneBookTwoTimesSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:42 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+<br/>2017-08-26 15:09:42 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+<br/>2017-08-26 15:09:42 INFO  UpdateApiTest:36 - tryToExchangeOneBookTwoTimesSoap test
+
+<br/>2017-08-26 15:09:42 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:42 INFO  ServiceFactory:20 - Creating Soap library service client
+
+<br/>2017-08-26 15:09:42 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+<br/>2017-08-26 15:09:42 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.epam.lab.web.soap.ServiceException: Fault occurred while processing.
 	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:135)
 	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
 	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
@@ -11,13 +53,47 @@
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
 	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
-	at com.sun.proxy.$Proxy45.exchangeBook(Unknown Source)
-	at com.epam.lab.web.ExchangeApiTest.exchangeOneBookTwoTimesSoap(ExchangeApiTest.java:43)
-... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.epam.lab.web.SearchAutorListApiTest#getAuthorsBooksFaultNumberRest</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.epam.lab.web.soap.ServiceException
-	at com.epam.lab.web.rest.LibraryRESTServiceClient.buildException(LibraryRESTServiceClient.java:207)
-	at com.epam.lab.web.rest.LibraryRESTServiceClient.getAuthorBooks(LibraryRESTServiceClient.java:182)
-	at com.epam.lab.web.SearchAutorListApiTest.getAuthorsBooksFaultNumberRest(SearchAutorListApiTest.java:74)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.epam.lab.web.SearchAutorListApiTest#getAuthorsBooksFaultNumberSoap</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.epam.lab.web.soap.ServiceException: Fault occurred while processing.
+	at com.sun.proxy.$Proxy46.exchangeBook(Unknown Source)
+	at com.epam.lab.web.ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap(ExchangeApiTest.java:46)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.epam.lab.web.SearchAutorListApiTest#getAuthorsBooksFaultNumberRest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+<br/>2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+<br/>2017-08-26 15:09:40 INFO  SearchAutorListApiTest:74 - getFiveAuthorsBooks
+
+<br/>2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+<br/>2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:168 - getAuthorBooks
+
+<br/>2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:172 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books/authors/George%20Martin/100
+
+<br/>2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+<br/>2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+<br/>2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.epam.lab.web.soap.ServiceException
+	at com.epam.lab.web.rest.LibraryRESTServiceClient.buildException(LibraryRESTServiceClient.java:206)
+	at com.epam.lab.web.rest.LibraryRESTServiceClient.getAuthorBooks(LibraryRESTServiceClient.java:181)
+	at com.epam.lab.web.SearchAutorListApiTest.getAuthorsBooksFaultNumberRest(SearchAutorListApiTest.java:78)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.epam.lab.web.SearchAutorListApiTest#getAuthorsBooksFaultNumberSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+<br/>2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+<br/>2017-08-26 15:09:40 INFO  SearchAutorListApiTest:87 - getFiveAuthorsBooks
+
+<br/>2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:40 INFO  ServiceFactory:20 - Creating Soap library service client
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.epam.lab.web.soap.ServiceException: Fault occurred while processing.
 	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:135)
 	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
 	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
@@ -25,6 +101,140 @@
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
 	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
-	at com.sun.proxy.$Proxy45.getAuthorBooks(Unknown Source)
-	at com.epam.lab.web.SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap(SearchAutorListApiTest.java:87)
-... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.epam.lab.web.SearchAutorListApiTest#getFiveAuthorsBooksRest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.epam.lab.web.SearchAutorListApiTest#getFiveAuthorsBooksSoap</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.epam.lab.web.SearchBookApiTest#addBookAndGetItBack</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.epam.lab.web.SearchBookApiTest#testSearchWithWrongBookNameRestAndSoap</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.epam.lab.web.UpdateApiTest#addThreeBookAndDeleteThemWithRestService</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.epam.lab.web.UpdateApiTest#addThreeBookAndDeleteThemWithSoapService</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+	at com.sun.proxy.$Proxy46.getAuthorBooks(Unknown Source)
+	at com.epam.lab.web.SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap(SearchAutorListApiTest.java:91)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.epam.lab.web.SearchAutorListApiTest#getFiveAuthorsBooksRest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+<br/>2017-08-26 15:09:41 INFO  SearchAutorListApiTest:42 - getFiveAuthorsBooks
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:168 - getAuthorBooks
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:172 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books/authors/George%20Martin/5
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.epam.lab.web.SearchAutorListApiTest#getFiveAuthorsBooksSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+<br/>2017-08-26 15:09:41 INFO  SearchAutorListApiTest:58 - getFiveAuthorsBooks
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:20 - Creating Soap library service client
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.epam.lab.web.SearchBookApiTest#addBookAndGetItBack</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+<br/>2017-08-26 15:09:41 INFO  SearchAutorListApiTest:46 - addBookAndGetItBack
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:66 - getBook
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:69 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book/A%20Clash%20of%20Kings
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.epam.lab.web.SearchBookApiTest#testSearchWithWrongBookNameBouthRestAndSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+<br/>2017-08-26 15:09:41 INFO  SearchAutorListApiTest:18 - testSearchWithWrongBookName
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:41 INFO  ServiceFactory:20 - Creating Soap library service client
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:66 - getBook
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:69 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book/A%20Clash%20of%20Kings
+
+<br/>2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+<br/>2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.epam.lab.web.UpdateApiTest#addThreeBookAndDeleteThemWithRestService</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+<br/>2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+<br/>2017-08-26 15:09:39 INFO  UpdateApiTest:32 - addThreeBookAndDeleteThemWithRestService test method
+
+<br/>2017-08-26 15:09:39 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:39 INFO  ServiceFactory:17 - Creating Rest library service client
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:92 - addBook
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:92 - addBook
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:40 - getAllBooks method
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:44 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books
+
+<br/>2017-08-26 15:09:39 INFO  UpdateApiTest:45 - [Book{author='John Bunyan', genre='genre1', name='The Pilgrim’s Progress'}, Book{author='Daniel Defoe', genre='genre1', name='Robinson Crusoe'}, Book{author='Daniel Defoe', genre='genre1', name='Memoirs of a Cavalier'}, Book{author='Daniel Defoe', genre='genre1', name='Captain Singleton'}, Book{author='Daniel Defoe', genre='genre1', name='A Journal of the Plague Year'}, Book{author='Daniel Defoe', genre='genre1', name='Moll Flanders'}, Book{author='Daniel Defoe', genre='genre1', name='The Fortunate Mistress'}, Book{author='Jonathan Swift', genre='genre1', name='Gulliver’s Travels'}, Book{author=' Samuel Richardson', genre='genre1', name='Clarissa'}, Book{author='Henry Fielding', genre='genre1', name='Tom Jones'}, Book{author=' Opinions of Tristram Shandy', genre='genre1', name='The Life'}, Book{author='Laurence Sterne', genre='genre1', name='Gentleman'}, Book{author='Jane Austen', genre='genre1', name='Emma'}, Book{author='Mary Shelley ', genre='genre1', name='Frankenstein'}, Book{author='Thomas Love Peacock', genre='genre1', name='Nightmare Abbey'}, Book{author='Edgar Allan Poe', genre='genre1', name='The Narrative of Arthur Gordon Pym of Nantucket'}, Book{author='Benjamin Disraeli', genre='genre1', name='Sybil'}, Book{author='Oscar Wilde', genre='genre1', name='The Picture of Dorian Gray'}, Book{author='George Gissing', genre='genre1', name='New Grub Street'}, Book{author='Thomas Hardy', genre='genre1', name='Jude the Obscure'}, Book{author='Stephen Crane', genre='genre1', name='The Red Badge of Courage'}, Book{author=' Bram Stoker', genre='genre1', name='Dracula'}, Book{author='Joseph Conrad', genre='genre1', name='Heart of Darkness'}, Book{author='Theodore Dreiser', genre='genre1', name='Sister Carrie'}, Book{author='Rudyard Kipling', genre='genre1', name='Kim'}, Book{author='Konan Doil', genre='detective', name='Sherlock'}, Book{author='Jek London', genre='janre2', name='White'}]
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:116 - removeBook
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:116 - removeBook
+
+<br/>2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+<br/>2017-08-26 15:09:39 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+<br/>2017-08-26 15:09:39 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.epam.lab.web.UpdateApiTest#addThreeBookAndDeleteThemWithSoapService</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+<br/>2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+<br/>2017-08-26 15:09:39 INFO  UpdateApiTest:61 - addThreeBookAndDeleteThemWithRestService test method
+
+<br/>2017-08-26 15:09:39 INFO  ServiceFactory:13 - getLibraryService factory method
+
+<br/>2017-08-26 15:09:39 INFO  ServiceFactory:20 - Creating Soap library service client
+
+<br/>2017-08-26 15:09:40 INFO  UpdateApiTest:73 - [Book{author='John Bunyan', genre='genre1', name='The Pilgrim’s Progress'}, Book{author='Daniel Defoe', genre='genre1', name='Robinson Crusoe'}, Book{author='Daniel Defoe', genre='genre1', name='Memoirs of a Cavalier'}, Book{author='Daniel Defoe', genre='genre1', name='Captain Singleton'}, Book{author='Daniel Defoe', genre='genre1', name='A Journal of the Plague Year'}, Book{author='Daniel Defoe', genre='genre1', name='Moll Flanders'}, Book{author='Daniel Defoe', genre='genre1', name='The Fortunate Mistress'}, Book{author='Jonathan Swift', genre='genre1', name='Gulliver’s Travels'}, Book{author=' Samuel Richardson', genre='genre1', name='Clarissa'}, Book{author='Henry Fielding', genre='genre1', name='Tom Jones'}, Book{author=' Opinions of Tristram Shandy', genre='genre1', name='The Life'}, Book{author='Laurence Sterne', genre='genre1', name='Gentleman'}, Book{author='Jane Austen', genre='genre1', name='Emma'}, Book{author='Mary Shelley ', genre='genre1', name='Frankenstein'}, Book{author='Thomas Love Peacock', genre='genre1', name='Nightmare Abbey'}, Book{author='Edgar Allan Poe', genre='genre1', name='The Narrative of Arthur Gordon Pym of Nantucket'}, Book{author='Benjamin Disraeli', genre='genre1', name='Sybil'}, Book{author='Oscar Wilde', genre='genre1', name='The Picture of Dorian Gray'}, Book{author='George Gissing', genre='genre1', name='New Grub Street'}, Book{author='Thomas Hardy', genre='genre1', name='Jude the Obscure'}, Book{author='Stephen Crane', genre='genre1', name='The Red Badge of Courage'}, Book{author=' Bram Stoker', genre='genre1', name='Dracula'}, Book{author='Joseph Conrad', genre='genre1', name='Heart of Darkness'}, Book{author='Theodore Dreiser', genre='genre1', name='Sister Carrie'}, Book{author='Rudyard Kipling', genre='genre1', name='Kim'}, Book{author='Konan Doil', genre='detective', name='Sherlock'}, Book{author='Jek London', genre='janre2', name='White'}]
+
+<br/>2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+<br/>2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

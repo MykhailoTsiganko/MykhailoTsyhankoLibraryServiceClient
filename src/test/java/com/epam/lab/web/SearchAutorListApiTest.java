@@ -2,21 +2,25 @@ package com.epam.lab.web;
 
 import com.epam.lab.web.soap.Book;
 import com.epam.lab.web.soap.ServiceException;
+import com.epam.lab.web.utils.LoggerListener;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.uncommons.reportng.HTMLReporter;
 
 import java.util.List;
 
+@Listeners({LoggerListener.class, HTMLReporter.class})
 public class SearchAutorListApiTest {
     public Logger LOGGER = Logger.getLogger(SearchAutorListApiTest.class);
-    public Book[] books = { new Book("A Game of Thrones","George Martin","fantasy"),
-            new Book("A Clash of Kings","George Martin","fantasy"),
-            new Book("A Feast for Crows","George Martin","fantasy"),
-            new Book("A Dance with Dragons","George Martin","fantasy"),
-            new Book("The Winds of Winter","George Martin","fantasy")};
+    public Book[] books = {new Book("A Game of Thrones", "George Martin", "fantasy"),
+            new Book("A Clash of Kings", "George Martin", "fantasy"),
+            new Book("A Feast for Crows", "George Martin", "fantasy"),
+            new Book("A Dance with Dragons", "George Martin", "fantasy"),
+            new Book("The Winds of Winter", "George Martin", "fantasy")};
 
     @BeforeMethod
     public void setUP() {
@@ -27,7 +31,7 @@ public class SearchAutorListApiTest {
             service.addBook(books[2]);
             service.addBook(books[3]);
             service.addBook(books[4]);
-        }catch (ServiceException e) {
+        } catch (ServiceException e) {
             LOGGER.info(e.getMessage());
         }
 
@@ -39,14 +43,14 @@ public class SearchAutorListApiTest {
         LibraryService service = ServiceFactory.getLibraryService(ServiceFactory.REST);
         List<Book> bookList = null;
         try {
-            bookList = service.getAuthorBooks("George Martin",5);
+            bookList = service.getAuthorBooks("George Martin", 5);
         } catch (ServiceException e) {
             e.printStackTrace();
         }
 
         Assert.assertNotNull(bookList);
 
-        Assert.assertTrue(bookList.size()  == 5);
+        Assert.assertTrue(bookList.size() == 5);
     }
 
     @Test
@@ -55,14 +59,14 @@ public class SearchAutorListApiTest {
         LibraryService service = ServiceFactory.getLibraryService(ServiceFactory.SOAP);
         List<Book> bookList = null;
         try {
-            bookList = service.getAuthorBooks("George Martin",5);
+            bookList = service.getAuthorBooks("George Martin", 5);
         } catch (ServiceException e) {
             e.printStackTrace();
         }
 
         Assert.assertNotNull(bookList);
 
-        Assert.assertTrue(bookList.size()  == 5);
+        Assert.assertTrue(bookList.size() == 5);
     }
 
     @Test(expectedExceptions = ServiceException.class)
@@ -71,11 +75,11 @@ public class SearchAutorListApiTest {
         LibraryService service = ServiceFactory.getLibraryService(ServiceFactory.REST);
         List<Book> bookList = null;
 
-        bookList = service.getAuthorBooks("George Martin",100);
+        bookList = service.getAuthorBooks("George Martin", 100);
 
         Assert.assertNull(bookList);
 
-        Assert.assertTrue(bookList.size()  > 5);
+        Assert.assertTrue(bookList.size() > 5);
     }
 
     @Test(expectedExceptions = ServiceException.class)
@@ -84,15 +88,15 @@ public class SearchAutorListApiTest {
         LibraryService service = ServiceFactory.getLibraryService(ServiceFactory.SOAP);
         List<Book> bookList = null;
 
-        bookList = service.getAuthorBooks("George Martin",1000);
+        bookList = service.getAuthorBooks("George Martin", 1000);
 
         Assert.assertNull(bookList);
 
-        Assert.assertTrue(bookList.size()  > 5);
+        Assert.assertTrue(bookList.size() > 5);
     }
 
     @AfterMethod
-    public void after(){
+    public void after() {
         LibraryService service = ServiceFactory.getLibraryService(ServiceFactory.REST);
         try {
             service.removeBook(books[0].getName());
@@ -100,7 +104,7 @@ public class SearchAutorListApiTest {
             service.removeBook(books[2].getName());
             service.removeBook(books[3].getName());
             service.removeBook(books[4].getName());
-        }catch (ServiceException e) {
+        } catch (ServiceException e) {
             LOGGER.info(e.getMessage());
         }
     }

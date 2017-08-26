@@ -25,15 +25,27 @@
             <version>6.11</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.uncommons</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.4</version>
+            <scope>test</scope>
+        </dependency>
 
-        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.1.0</version>
+            <classifier>no_aop</classifier>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-client -->
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-client</artifactId>
@@ -46,56 +58,30 @@
             <version>1.19.4</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
             <version>2.9.0</version>
         </dependency>
     </dependencies>
-    <profiles>
-        <profile>
-            <id>testng</id>
-            <build>
-                <pluginManagement>
-                    <plugins>
-                        <plugin>
-                            <groupId>org.apache.maven.plugins</groupId>
-                            <artifactId>maven-compiler-plugin</artifactId>
-                            <configuration>
-                                <source>1.8</source>
-                                <target>1.8</target>
-                                <encoding>UTF-8</encoding>
-                            </configuration>
-                        </plugin>
-                        <plugin>
-                            <groupId>org.apache.maven.plugins</groupId>
-                            <artifactId>maven-surefire-plugin</artifactId>
-                            <version>2.20</version>
-                            <configuration>
-                                <testFailureIgnore>true</testFailureIgnore>
-                                <suiteXmlFiles>
-                                    <suiteXmlFile>testng.xml</suiteXmlFile>
-                                </suiteXmlFiles>
-                                <properties>
-                                    <property>
-                                        <name>usedefaultlistener</name>
-                                        <value>false</value>
-                                    </property>
-                                    <property>
-                                        <name>listener</name>
-                                        <value>org.uncommons.reportng.HTMLReporter,com.epam.lab.web.utils.LoggerListener</value>
-                                    </property>
-                                </properties>
-                                <systemPropertyVariables>
-                                    <org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
-                                </systemPropertyVariables>
-                            </configuration>
-                        </plugin>
-                    </plugins>
-                </pluginManagement>
-
-            </build>
-        </profile>
-    </profiles>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20</version>
+                <configuration>
+                    <properties>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter,com.epam.lab.web.utils.LoggerListener</value>
+                        </property>
+                    </properties>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/suits/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

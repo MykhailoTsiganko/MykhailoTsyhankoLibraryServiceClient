@@ -15,7 +15,7 @@ import javax.xml.ws.Service;
  * 
  */
 @WebServiceClient(name = "LibraryServiceImplService", 
-                  wsdlLocation = "file:/E:/workspace/MykhailoTsyhankoLibraryServiceClient/src/main/resources/service.wsdl",
+                  wsdlLocation = "src/main/resources/service.wsdl",
                   targetNamespace = "http://soap.web.lab.epam.com/") 
 public class LibraryServiceImplService extends Service {
 
@@ -26,11 +26,11 @@ public class LibraryServiceImplService extends Service {
     static {
         URL url = null;
         try {
-            url = new URL("file:/E:/workspace/MykhailoTsyhankoLibraryServiceClient/src/main/resources/service.wsdl");
+            url = new URL("src/main/resources/service.wsdl");
         } catch (MalformedURLException e) {
             java.util.logging.Logger.getLogger(LibraryServiceImplService.class.getName())
                 .log(java.util.logging.Level.INFO, 
-                     "Can not initialize the default wsdl from {0}", "file:/E:/workspace/MykhailoTsyhankoLibraryServiceClient/src/main/resources/service.wsdl");
+                     "Can not initialize the default wsdl from {0}", "src/main/resources/service.wsdl");
         }
         WSDL_LOCATION = url;
     }

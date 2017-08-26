@@ -2,45 +2,48 @@ package com.epam.lab.web;
 
 import com.epam.lab.web.soap.Book;
 import com.epam.lab.web.soap.ServiceException;
+import com.epam.lab.web.utils.LoggerListener;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.uncommons.reportng.HTMLReporter;
 
+@Listeners({LoggerListener.class, HTMLReporter.class})
 public class ExchangeApiTest {
     public Logger LOGGER = Logger.getLogger(UpdateApiTest.class);
-    public static Book book1 = new Book("Sherlock Hol","Konan Doil","detective");
-    public static Book book2 = new Book("White","Jeck London","janre2");
-    public static Book book3 = new Book("Sherlock Holms","Konan Doil","detective");
+    public static Book book1 = new Book("Sherlock Hol", "Konan Doil", "detective");
+    public static Book book2 = new Book("White Flag", "Jek London", "janre2");
 
     @Test(expectedExceptions = ServiceException.class)
-    public void  exchangeOneBookTwoTimesRest() throws ServiceException {
-        LOGGER.info("exchangeOneBookTwoTimes test");
+    public void tryToExchangeOneBookTwoTimesRest() throws ServiceException {
+        LOGGER.info("tryToExchangeOneBookTwoTimesRest test");
 
         LibraryService service = ServiceFactory.getLibraryService(ServiceFactory.REST);
 
         Assert.assertTrue(service.addBook(book1));
 
-        Book book = service.exchangeBook(book2,book1.getName());
+        Book outputBook = service.exchangeBook(book2, book1.getName());
 
-        Assert.assertEquals(book,book1);
+        Assert.assertEquals(outputBook, book1);
 
-        service.exchangeBook(book2,book1.getName());
+        service.exchangeBook(book2, book1.getName());
     }
 
     @Test(expectedExceptions = ServiceException.class)
-    public void  exchangeOneBookTwoTimesSoap() throws ServiceException {
-        LOGGER.info("exchangeOneBookTwoTimes test");
+    public void tryToExchangeOneBookTwoTimesSoap() throws ServiceException {
+        LOGGER.info("tryToExchangeOneBookTwoTimesSoap test");
 
         LibraryService service = ServiceFactory.getLibraryService(ServiceFactory.SOAP);
 
         Assert.assertTrue(service.addBook(book1));
 
-        Book book = service.exchangeBook(book2,book1.getName());
+        Book outputBook = service.exchangeBook(book2, book1.getName());
 
-        Assert.assertEquals(book,book1);
+        Assert.assertEquals(outputBook, book1);
 
-        service.exchangeBook(book2,book1.getName());
+        service.exchangeBook(book2, book1.getName());
     }
 
     @AfterMethod

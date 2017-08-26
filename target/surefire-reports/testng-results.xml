@@ -1,51 +1,1451 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:41 - Starting tests : Test, Output directory : D:\Tsyhanko\workspace\MykhailoTsyhankoLibraryServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@527740a2
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:41 - Starting tests : Test, Output directory : D:\Tsyhanko\workspace\MykhailoTsyhankoLibraryServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@527740a2
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  UpdateApiTest:32 - addThreeBookAndDeleteThemWithRestService test method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:40 - getAllBooks method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:44 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  UpdateApiTest:45 - [Book{author='John Bunyan', genre='genre1', name='The Pilgrim’s Progress'}, Book{author='Daniel Defoe', genre='genre1', name='Robinson Crusoe'}, Book{author='Daniel Defoe', genre='genre1', name='Memoirs of a Cavalier'}, Book{author='Daniel Defoe', genre='genre1', name='Captain Singleton'}, Book{author='Daniel Defoe', genre='genre1', name='A Journal of the Plague Year'}, Book{author='Daniel Defoe', genre='genre1', name='Moll Flanders'}, Book{author='Daniel Defoe', genre='genre1', name='The Fortunate Mistress'}, Book{author='Jonathan Swift', genre='genre1', name='Gulliver’s Travels'}, Book{author=' Samuel Richardson', genre='genre1', name='Clarissa'}, Book{author='Henry Fielding', genre='genre1', name='Tom Jones'}, Book{author=' Opinions of Tristram Shandy', genre='genre1', name='The Life'}, Book{author='Laurence Sterne', genre='genre1', name='Gentleman'}, Book{author='Jane Austen', genre='genre1', name='Emma'}, Book{author='Mary Shelley ', genre='genre1', name='Frankenstein'}, Book{author='Thomas Love Peacock', genre='genre1', name='Nightmare Abbey'}, Book{author='Edgar Allan Poe', genre='genre1', name='The Narrative of Arthur Gordon Pym of Nantucket'}, Book{author='Benjamin Disraeli', genre='genre1', name='Sybil'}, Book{author='Oscar Wilde', genre='genre1', name='The Picture of Dorian Gray'}, Book{author='George Gissing', genre='genre1', name='New Grub Street'}, Book{author='Thomas Hardy', genre='genre1', name='Jude the Obscure'}, Book{author='Stephen Crane', genre='genre1', name='The Red Badge of Courage'}, Book{author=' Bram Stoker', genre='genre1', name='Dracula'}, Book{author='Joseph Conrad', genre='genre1', name='Heart of Darkness'}, Book{author='Theodore Dreiser', genre='genre1', name='Sister Carrie'}, Book{author='Rudyard Kipling', genre='genre1', name='Kim'}, Book{author='Konan Doil', genre='detective', name='Sherlock'}, Book{author='Jek London', genre='janre2', name='White'}]
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  UpdateApiTest:61 - addThreeBookAndDeleteThemWithRestService test method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:39 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  UpdateApiTest:73 - [Book{author='John Bunyan', genre='genre1', name='The Pilgrim’s Progress'}, Book{author='Daniel Defoe', genre='genre1', name='Robinson Crusoe'}, Book{author='Daniel Defoe', genre='genre1', name='Memoirs of a Cavalier'}, Book{author='Daniel Defoe', genre='genre1', name='Captain Singleton'}, Book{author='Daniel Defoe', genre='genre1', name='A Journal of the Plague Year'}, Book{author='Daniel Defoe', genre='genre1', name='Moll Flanders'}, Book{author='Daniel Defoe', genre='genre1', name='The Fortunate Mistress'}, Book{author='Jonathan Swift', genre='genre1', name='Gulliver’s Travels'}, Book{author=' Samuel Richardson', genre='genre1', name='Clarissa'}, Book{author='Henry Fielding', genre='genre1', name='Tom Jones'}, Book{author=' Opinions of Tristram Shandy', genre='genre1', name='The Life'}, Book{author='Laurence Sterne', genre='genre1', name='Gentleman'}, Book{author='Jane Austen', genre='genre1', name='Emma'}, Book{author='Mary Shelley ', genre='genre1', name='Frankenstein'}, Book{author='Thomas Love Peacock', genre='genre1', name='Nightmare Abbey'}, Book{author='Edgar Allan Poe', genre='genre1', name='The Narrative of Arthur Gordon Pym of Nantucket'}, Book{author='Benjamin Disraeli', genre='genre1', name='Sybil'}, Book{author='Oscar Wilde', genre='genre1', name='The Picture of Dorian Gray'}, Book{author='George Gissing', genre='genre1', name='New Grub Street'}, Book{author='Thomas Hardy', genre='genre1', name='Jude the Obscure'}, Book{author='Stephen Crane', genre='genre1', name='The Red Badge of Courage'}, Book{author=' Bram Stoker', genre='genre1', name='Dracula'}, Book{author='Joseph Conrad', genre='genre1', name='Heart of Darkness'}, Book{author='Theodore Dreiser', genre='genre1', name='Sister Carrie'}, Book{author='Rudyard Kipling', genre='genre1', name='Kim'}, Book{author='Konan Doil', genre='detective', name='Sherlock'}, Book{author='Jek London', genre='janre2', name='White'}]
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  SearchAutorListApiTest:74 - getFiveAuthorsBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:168 - getAuthorBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:172 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books/authors/George%20Martin/100
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  SearchAutorListApiTest:87 - getFiveAuthorsBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  SearchAutorListApiTest:42 - getFiveAuthorsBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:168 - getAuthorBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:172 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books/authors/George%20Martin/5
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  SearchAutorListApiTest:58 - getFiveAuthorsBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  SearchAutorListApiTest:46 - addBookAndGetItBack
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:66 - getBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:69 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book/A%20Clash%20of%20Kings
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  SearchAutorListApiTest:18 - testSearchWithWrongBookName
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:66 - getBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:69 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book/A%20Clash%20of%20Kings
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  UpdateApiTest:21 - tryToExchangeOneBookTwoTimesRest test
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:136 - exchangeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:140 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/exchange/Sherlock%20Hol
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:136 - exchangeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:140 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/exchange/Sherlock%20Hol
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  UpdateApiTest:51 - after method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  UpdateApiTest:36 - tryToExchangeOneBookTwoTimesSoap test
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  UpdateApiTest:51 - after method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+    </line>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="7973" started-at="2017-08-26T08:29:56Z" finished-at="2017-08-26T08:30:04Z">
+  <suite name="Suite" duration-ms="2797" started-at="2017-08-26T12:09:39Z" finished-at="2017-08-26T12:09:42Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="7973" started-at="2017-08-26T08:29:56Z" finished-at="2017-08-26T08:30:04Z">
+    <test name="Test" duration-ms="2797" started-at="2017-08-26T12:09:39Z" finished-at="2017-08-26T12:09:42Z">
       <class name="com.epam.lab.web.UpdateApiTest">
-        <test-method status="PASS" signature="addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@7921b0a2]" name="addThreeBookAndDeleteThemWithRestService" duration-ms="181" started-at="2017-08-26T11:30:03Z" finished-at="2017-08-26T11:30:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26]" name="setUp" is-config="true" duration-ms="0" started-at="2017-08-26T15:09:39Z" finished-at="2017-08-26T15:09:39Z">
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26]" name="addThreeBookAndDeleteThemWithRestService" duration-ms="546" started-at="2017-08-26T15:09:39Z" finished-at="2017-08-26T15:09:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  UpdateApiTest:32 - addThreeBookAndDeleteThemWithRestService test method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:40 - getAllBooks method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:44 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  UpdateApiTest:45 - [Book{author='John Bunyan', genre='genre1', name='The Pilgrim’s Progress'}, Book{author='Daniel Defoe', genre='genre1', name='Robinson Crusoe'}, Book{author='Daniel Defoe', genre='genre1', name='Memoirs of a Cavalier'}, Book{author='Daniel Defoe', genre='genre1', name='Captain Singleton'}, Book{author='Daniel Defoe', genre='genre1', name='A Journal of the Plague Year'}, Book{author='Daniel Defoe', genre='genre1', name='Moll Flanders'}, Book{author='Daniel Defoe', genre='genre1', name='The Fortunate Mistress'}, Book{author='Jonathan Swift', genre='genre1', name='Gulliver’s Travels'}, Book{author=' Samuel Richardson', genre='genre1', name='Clarissa'}, Book{author='Henry Fielding', genre='genre1', name='Tom Jones'}, Book{author=' Opinions of Tristram Shandy', genre='genre1', name='The Life'}, Book{author='Laurence Sterne', genre='genre1', name='Gentleman'}, Book{author='Jane Austen', genre='genre1', name='Emma'}, Book{author='Mary Shelley ', genre='genre1', name='Frankenstein'}, Book{author='Thomas Love Peacock', genre='genre1', name='Nightmare Abbey'}, Book{author='Edgar Allan Poe', genre='genre1', name='The Narrative of Arthur Gordon Pym of Nantucket'}, Book{author='Benjamin Disraeli', genre='genre1', name='Sybil'}, Book{author='Oscar Wilde', genre='genre1', name='The Picture of Dorian Gray'}, Book{author='George Gissing', genre='genre1', name='New Grub Street'}, Book{author='Thomas Hardy', genre='genre1', name='Jude the Obscure'}, Book{author='Stephen Crane', genre='genre1', name='The Red Badge of Courage'}, Book{author=' Bram Stoker', genre='genre1', name='Dracula'}, Book{author='Joseph Conrad', genre='genre1', name='Heart of Darkness'}, Book{author='Theodore Dreiser', genre='genre1', name='Sister Carrie'}, Book{author='Rudyard Kipling', genre='genre1', name='Kim'}, Book{author='Konan Doil', genre='detective', name='Sherlock'}, Book{author='Jek London', genre='janre2', name='White'}]
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithRestService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithRestService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addThreeBookAndDeleteThemWithRestService -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.web.UpdateApiTest@7921b0a2]" name="setUp" is-config="true" duration-ms="0" started-at="2017-08-26T11:30:03Z" finished-at="2017-08-26T11:30:03Z">
+        <test-method status="PASS" signature="addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26]" name="addThreeBookAndDeleteThemWithSoapService" duration-ms="469" started-at="2017-08-26T15:09:39Z" finished-at="2017-08-26T15:09:40Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.web.UpdateApiTest@7921b0a2]" name="setUp" is-config="true" duration-ms="1" started-at="2017-08-26T11:30:04Z" finished-at="2017-08-26T11:30:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@7921b0a2]" name="addThreeBookAndDeleteThemWithSoapService" duration-ms="234" started-at="2017-08-26T11:30:04Z" finished-at="2017-08-26T11:30:04Z">
-          <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  LoggerListener:13 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  UpdateApiTest:61 - addThreeBookAndDeleteThemWithRestService test method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:39 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  UpdateApiTest:73 - [Book{author='John Bunyan', genre='genre1', name='The Pilgrim’s Progress'}, Book{author='Daniel Defoe', genre='genre1', name='Robinson Crusoe'}, Book{author='Daniel Defoe', genre='genre1', name='Memoirs of a Cavalier'}, Book{author='Daniel Defoe', genre='genre1', name='Captain Singleton'}, Book{author='Daniel Defoe', genre='genre1', name='A Journal of the Plague Year'}, Book{author='Daniel Defoe', genre='genre1', name='Moll Flanders'}, Book{author='Daniel Defoe', genre='genre1', name='The Fortunate Mistress'}, Book{author='Jonathan Swift', genre='genre1', name='Gulliver’s Travels'}, Book{author=' Samuel Richardson', genre='genre1', name='Clarissa'}, Book{author='Henry Fielding', genre='genre1', name='Tom Jones'}, Book{author=' Opinions of Tristram Shandy', genre='genre1', name='The Life'}, Book{author='Laurence Sterne', genre='genre1', name='Gentleman'}, Book{author='Jane Austen', genre='genre1', name='Emma'}, Book{author='Mary Shelley ', genre='genre1', name='Frankenstein'}, Book{author='Thomas Love Peacock', genre='genre1', name='Nightmare Abbey'}, Book{author='Edgar Allan Poe', genre='genre1', name='The Narrative of Arthur Gordon Pym of Nantucket'}, Book{author='Benjamin Disraeli', genre='genre1', name='Sybil'}, Book{author='Oscar Wilde', genre='genre1', name='The Picture of Dorian Gray'}, Book{author='George Gissing', genre='genre1', name='New Grub Street'}, Book{author='Thomas Hardy', genre='genre1', name='Jude the Obscure'}, Book{author='Stephen Crane', genre='genre1', name='The Red Badge of Courage'}, Book{author=' Bram Stoker', genre='genre1', name='Dracula'}, Book{author='Joseph Conrad', genre='genre1', name='Heart of Darkness'}, Book{author='Theodore Dreiser', genre='genre1', name='Sister Carrie'}, Book{author='Rudyard Kipling', genre='genre1', name='Kim'}, Book{author='Konan Doil', genre='detective', name='Sherlock'}, Book{author='Jek London', genre='janre2', name='White'}]
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : addThreeBookAndDeleteThemWithSoapService , Method : UpdateApiTest.addThreeBookAndDeleteThemWithSoapService()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26] passed successful
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addThreeBookAndDeleteThemWithSoapService -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.web.UpdateApiTest@20322d26]" name="setUp" is-config="true" duration-ms="0" started-at="2017-08-26T15:09:39Z" finished-at="2017-08-26T15:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
       </class> <!-- com.epam.lab.web.UpdateApiTest -->
       <class name="com.epam.lab.web.SearchBookApiTest">
-        <test-method status="PASS" signature="addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@6a024a67]" name="addBookAndGetItBack" duration-ms="122" started-at="2017-08-26T11:30:03Z" finished-at="2017-08-26T11:30:03Z">
+        <test-method status="PASS" signature="addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86]" name="addBookAndGetItBack" duration-ms="62" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  SearchAutorListApiTest:46 - addBookAndGetItBack
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:66 - getBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:69 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book/A%20Clash%20of%20Kings
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : addBookAndGetItBack , Method : SearchBookApiTest.addBookAndGetItBack()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addBookAndGetItBack -->
-        <test-method status="PASS" signature="testSearchWithWrongBookNameRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@6a024a67]" name="testSearchWithWrongBookNameRestAndSoap" duration-ms="266" started-at="2017-08-26T11:30:03Z" finished-at="2017-08-26T11:30:03Z">
+        <test-method status="PASS" signature="testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86]" name="testSearchWithWrongBookNameBouthRestAndSoap" duration-ms="125" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  SearchAutorListApiTest:18 - testSearchWithWrongBookName
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:66 - getBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:69 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book/A%20Clash%20of%20Kings
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : testSearchWithWrongBookNameBouthRestAndSoap , Method : SearchBookApiTest.testSearchWithWrongBookNameBouthRestAndSoap()[pri:0, instance:com.epam.lab.web.SearchBookApiTest@64bfbc86] passed successful
+
+]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testSearchWithWrongBookNameRestAndSoap -->
+        </test-method> <!-- testSearchWithWrongBookNameBouthRestAndSoap -->
       </class> <!-- com.epam.lab.web.SearchBookApiTest -->
       <class name="com.epam.lab.web.SearchAutorListApiTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="setUP" is-config="true" duration-ms="515" started-at="2017-08-26T11:29:58Z" finished-at="2017-08-26T11:29:59Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="setUP" is-config="true" duration-ms="188" started-at="2017-08-26T15:09:40Z" finished-at="2017-08-26T15:09:40Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="getAuthorsBooksFaultNumberRest" duration-ms="129" started-at="2017-08-26T11:29:59Z" finished-at="2017-08-26T11:29:59Z">
+        <test-method status="PASS" signature="getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="getAuthorsBooksFaultNumberRest" duration-ms="109" started-at="2017-08-26T15:09:40Z" finished-at="2017-08-26T15:09:40Z">
           <exception class="com.epam.lab.web.soap.ServiceException">
             <full-stacktrace>
               <![CDATA[com.epam.lab.web.soap.ServiceException
-	at com.epam.lab.web.rest.LibraryRESTServiceClient.buildException(LibraryRESTServiceClient.java:207)
-	at com.epam.lab.web.rest.LibraryRESTServiceClient.getAuthorBooks(LibraryRESTServiceClient.java:182)
-	at com.epam.lab.web.SearchAutorListApiTest.getAuthorsBooksFaultNumberRest(SearchAutorListApiTest.java:74)
+	at com.epam.lab.web.rest.LibraryRESTServiceClient.buildException(LibraryRESTServiceClient.java:206)
+	at com.epam.lab.web.rest.LibraryRESTServiceClient.getAuthorBooks(LibraryRESTServiceClient.java:181)
+	at com.epam.lab.web.SearchAutorListApiTest.getAuthorsBooksFaultNumberRest(SearchAutorListApiTest.java:78)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,34 +1468,197 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- com.epam.lab.web.soap.ServiceException -->
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  SearchAutorListApiTest:74 - getFiveAuthorsBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:168 - getAuthorBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:172 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books/authors/George%20Martin/100
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberRest , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- getAuthorsBooksFaultNumberRest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="after" is-config="true" duration-ms="624" started-at="2017-08-26T11:29:59Z" finished-at="2017-08-26T11:30:00Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="after" is-config="true" duration-ms="109" started-at="2017-08-26T15:09:40Z" finished-at="2017-08-26T15:09:40Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="setUP" is-config="true" duration-ms="292" started-at="2017-08-26T11:30:00Z" finished-at="2017-08-26T11:30:00Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="setUP" is-config="true" duration-ms="125" started-at="2017-08-26T15:09:40Z" finished-at="2017-08-26T15:09:40Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="getAuthorsBooksFaultNumberSoap" duration-ms="116" started-at="2017-08-26T11:30:00Z" finished-at="2017-08-26T11:30:00Z">
+        <test-method status="PASS" signature="getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="getAuthorsBooksFaultNumberSoap" duration-ms="94" started-at="2017-08-26T15:09:40Z" finished-at="2017-08-26T15:09:41Z">
           <exception class="com.epam.lab.web.soap.ServiceException">
             <message>
               <![CDATA[Fault occurred while processing.]]>
@@ -113,8 +1676,8 @@
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
 	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
-	at com.sun.proxy.$Proxy45.getAuthorBooks(Unknown Source)
-	at com.epam.lab.web.SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap(SearchAutorListApiTest.java:87)
+	at com.sun.proxy.$Proxy46.getAuthorBooks(Unknown Source)
+	at com.epam.lab.web.SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap(SearchAutorListApiTest.java:91)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,62 +1700,470 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- com.epam.lab.web.soap.ServiceException -->
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  LoggerListener:13 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  SearchAutorListApiTest:87 - getFiveAuthorsBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:40 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getAuthorsBooksFaultNumberSoap , Method : SearchAutorListApiTest.getAuthorsBooksFaultNumberSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- getAuthorsBooksFaultNumberSoap -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="after" is-config="true" duration-ms="227" started-at="2017-08-26T11:30:00Z" finished-at="2017-08-26T11:30:00Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="after" is-config="true" duration-ms="94" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="setUP" is-config="true" duration-ms="163" started-at="2017-08-26T11:30:00Z" finished-at="2017-08-26T11:30:00Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="setUP" is-config="true" duration-ms="125" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="getFiveAuthorsBooksRest" duration-ms="100" started-at="2017-08-26T11:30:00Z" finished-at="2017-08-26T11:30:00Z">
+        <test-method status="PASS" signature="getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="getFiveAuthorsBooksRest" duration-ms="62" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  SearchAutorListApiTest:42 - getFiveAuthorsBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:168 - getAuthorBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:172 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/books/authors/George%20Martin/5
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksRest , Method : SearchAutorListApiTest.getFiveAuthorsBooksRest()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- getFiveAuthorsBooksRest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="after" is-config="true" duration-ms="195" started-at="2017-08-26T11:30:00Z" finished-at="2017-08-26T11:30:01Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="after" is-config="true" duration-ms="94" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="setUP" is-config="true" duration-ms="1950" started-at="2017-08-26T11:30:01Z" finished-at="2017-08-26T11:30:03Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="setUP" is-config="true" duration-ms="109" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="getFiveAuthorsBooksSoap" duration-ms="100" started-at="2017-08-26T11:30:03Z" finished-at="2017-08-26T11:30:03Z">
+        <test-method status="PASS" signature="getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="getFiveAuthorsBooksSoap" duration-ms="47" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  SearchAutorListApiTest:58 - getFiveAuthorsBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : getFiveAuthorsBooksSoap , Method : SearchAutorListApiTest.getFiveAuthorsBooksSoap()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd] passed successful
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- getFiveAuthorsBooksSoap -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@6ea12c19]" name="after" is-config="true" duration-ms="278" started-at="2017-08-26T11:30:03Z" finished-at="2017-08-26T11:30:03Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.web.SearchAutorListApiTest@192b07fd]" name="after" is-config="true" duration-ms="94" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- com.epam.lab.web.SearchAutorListApiTest -->
       <class name="com.epam.lab.web.ExchangeApiTest">
-        <test-method status="PASS" signature="exchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@5afa04c]" name="exchangeOneBookTwoTimesRest" duration-ms="1036" started-at="2017-08-26T11:29:56Z" finished-at="2017-08-26T11:29:57Z">
+        <test-method status="PASS" signature="tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf]" name="tryToExchangeOneBookTwoTimesRest" duration-ms="79" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:41Z">
           <exception class="com.epam.lab.web.soap.ServiceException">
             <full-stacktrace>
               <![CDATA[com.epam.lab.web.soap.ServiceException
-	at com.epam.lab.web.rest.LibraryRESTServiceClient.buildException(LibraryRESTServiceClient.java:207)
-	at com.epam.lab.web.rest.LibraryRESTServiceClient.exchangeBook(LibraryRESTServiceClient.java:156)
-	at com.epam.lab.web.ExchangeApiTest.exchangeOneBookTwoTimesRest(ExchangeApiTest.java:28)
+	at com.epam.lab.web.rest.LibraryRESTServiceClient.buildException(LibraryRESTServiceClient.java:206)
+	at com.epam.lab.web.rest.LibraryRESTServiceClient.exchangeBook(LibraryRESTServiceClient.java:155)
+	at com.epam.lab.web.ExchangeApiTest.tryToExchangeOneBookTwoTimesRest(ExchangeApiTest.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -215,30 +2186,128 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- com.epam.lab.web.soap.ServiceException -->
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  UpdateApiTest:21 - tryToExchangeOneBookTwoTimesRest test
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:92 - addBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:96 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:136 - exchangeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:140 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/exchange/Sherlock%20Hol
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:136 - exchangeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:140 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/exchange/Sherlock%20Hol
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LibraryRESTServiceClient:197 - getAuthorBooks
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- exchangeOneBookTwoTimesRest -->
-        <test-method status="PASS" signature="clearWorkspace()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@5afa04c]" name="clearWorkspace" is-config="true" duration-ms="237" started-at="2017-08-26T11:29:57Z" finished-at="2017-08-26T11:29:57Z">
+        </test-method> <!-- tryToExchangeOneBookTwoTimesRest -->
+        <test-method status="PASS" signature="clearWorkspace()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf]" name="clearWorkspace" is-config="true" duration-ms="78" started-at="2017-08-26T15:09:41Z" finished-at="2017-08-26T15:09:42Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  UpdateApiTest:51 - after method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:41 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clearWorkspace -->
-        <test-method status="PASS" signature="exchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@5afa04c]" name="exchangeOneBookTwoTimesSoap" duration-ms="961" started-at="2017-08-26T11:29:57Z" finished-at="2017-08-26T11:29:58Z">
+        <test-method status="PASS" signature="tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf]" name="tryToExchangeOneBookTwoTimesSoap" duration-ms="78" started-at="2017-08-26T15:09:42Z" finished-at="2017-08-26T15:09:42Z">
           <exception class="com.epam.lab.web.soap.ServiceException">
             <message>
               <![CDATA[Fault occurred while processing.]]>
@@ -256,8 +2325,8 @@
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
 	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
-	at com.sun.proxy.$Proxy45.exchangeBook(Unknown Source)
-	at com.epam.lab.web.ExchangeApiTest.exchangeOneBookTwoTimesSoap(ExchangeApiTest.java:43)
+	at com.sun.proxy.$Proxy46.exchangeBook(Unknown Source)
+	at com.epam.lab.web.ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap(ExchangeApiTest.java:46)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -280,30 +2349,93 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- com.epam.lab.web.soap.ServiceException -->
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf], Started
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  UpdateApiTest:36 - tryToExchangeOneBookTwoTimesSoap test
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  ServiceFactory:20 - Creating Soap library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf] passed successful
+
+]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- exchangeOneBookTwoTimesSoap -->
-        <test-method status="PASS" signature="clearWorkspace()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@5afa04c]" name="clearWorkspace" is-config="true" duration-ms="214" started-at="2017-08-26T11:29:58Z" finished-at="2017-08-26T11:29:58Z">
+        </test-method> <!-- tryToExchangeOneBookTwoTimesSoap -->
+        <test-method status="PASS" signature="clearWorkspace()[pri:0, instance:com.epam.lab.web.ExchangeApiTest@64bf3bbf]" name="clearWorkspace" is-config="true" duration-ms="62" started-at="2017-08-26T15:09:42Z" finished-at="2017-08-26T15:09:42Z">
           <reporter-output>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  UpdateApiTest:51 - after method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  ServiceFactory:13 - getLibraryService factory method
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  ServiceFactory:17 - Creating Rest library service client
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:116 - removeBook
+
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-26 15:09:42 INFO  LibraryRESTServiceClient:121 - path:http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST/book
+
+]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clearWorkspace -->
       </class> <!-- com.epam.lab.web.ExchangeApiTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -24,7 +24,6 @@ public class LibraryRESTServiceClient implements LibraryService {
     public Logger LOGGER = Logger.getLogger(LibraryRESTServiceClient.class);
 
     public static final String BASE_ADDRESS = "http://localhost:8080/MykhailoTsyhankoLibraryService/libraryREST";
-    public static final String GET_ALL_BOOK_PATH = "/books";
 
     private ClientConfig clientConfig;
     private Client client;
@@ -41,7 +40,7 @@ public class LibraryRESTServiceClient implements LibraryService {
         LOGGER.info("getAllBooks method");
         ObjectMapper mapper = new ObjectMapper();
 
-        String uri = BASE_ADDRESS + GET_ALL_BOOK_PATH;
+        String uri = BASE_ADDRESS + "/books";
         LOGGER.info("path:" + uri);
 
         WebResource webResource = client.resource(uri);
@@ -53,7 +52,8 @@ public class LibraryRESTServiceClient implements LibraryService {
         List<Book> list = null;
 
         try {
-            list = mapper.readValue(booksJson, new TypeReference<List<Book>>() {});
+            list = mapper.readValue(booksJson, new TypeReference<List<Book>>() {
+            });
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -65,7 +65,7 @@ public class LibraryRESTServiceClient implements LibraryService {
     public Book getBook(String name) throws ServiceException {
         LOGGER.info("getBook");
         ObjectMapper mapper = new ObjectMapper();
-        String uri = BASE_ADDRESS + "/book/" + name.replace(" ","%20");
+        String uri = BASE_ADDRESS + "/book/" + name.replace(" ", "%20");
         LOGGER.info("path:" + uri);
 
         WebResource webResource = client.resource(uri);
@@ -74,7 +74,7 @@ public class LibraryRESTServiceClient implements LibraryService {
                 .get(ClientResponse.class);
 
         if (response.getStatus() != 200) {
-            throw buildException(response,mapper);
+            throw buildException(response, mapper);
         }
 
         Book book = null;
@@ -97,7 +97,6 @@ public class LibraryRESTServiceClient implements LibraryService {
 
         WebResource webResource = client.resource(uri);
 
-
         ClientResponse response = null;
         try {
             response = webResource.accept("application/json;encoding=UTF-8").type("application/json")
@@ -107,7 +106,7 @@ public class LibraryRESTServiceClient implements LibraryService {
         }
 
         if (response.getStatus() != 200) {
-            throw buildException(response,mapper);
+            throw buildException(response, mapper);
         }
         return true;
 
@@ -127,18 +126,18 @@ public class LibraryRESTServiceClient implements LibraryService {
                 .delete(ClientResponse.class, name);
 
         if (response.getStatus() != 200) {
-            throw buildException(response,mapper);
+            throw buildException(response, mapper);
         }
         return true;
     }
 
 
-   public  Book exchangeBook(Book book, String requiredBookName) throws ServiceException {
-       LOGGER.info("exchangeBook");
+    public Book exchangeBook(Book book, String requiredBookName) throws ServiceException {
+        LOGGER.info("exchangeBook");
 
-       ObjectMapper mapper = new ObjectMapper();
-       String uri = BASE_ADDRESS + "/exchange/" + requiredBookName.replace(" ","%20");
-       LOGGER.info("path:" + uri);
+        ObjectMapper mapper = new ObjectMapper();
+        String uri = BASE_ADDRESS + "/exchange/" + requiredBookName.replace(" ", "%20");
+        LOGGER.info("path:" + uri);
 
         WebResource webResource = client.resource(uri);
         Book requiredBook = null;
@@ -153,7 +152,7 @@ public class LibraryRESTServiceClient implements LibraryService {
         }
 
         if (response.getStatus() != 200) {
-            throw buildException(response,mapper);
+            throw buildException(response, mapper);
         } else {
             String jsonBook = response.getEntity(String.class);
             try {
@@ -169,7 +168,7 @@ public class LibraryRESTServiceClient implements LibraryService {
         LOGGER.info("getAuthorBooks");
 
         ObjectMapper mapper = new ObjectMapper();
-        String uri = BASE_ADDRESS + "/books/authors/" + authorName.replace(" ","%20") + "/" + number;
+        String uri = BASE_ADDRESS + "/books/authors/" + authorName.replace(" ", "%20") + "/" + number;
         LOGGER.info("path:" + uri);
 
         WebResource webResource = client.resource(uri);
@@ -179,7 +178,7 @@ public class LibraryRESTServiceClient implements LibraryService {
 
         List<Book> list = null;
         if (response.getStatus() != 200) {
-            throw buildException(response,mapper);
+            throw buildException(response, mapper);
         } else {
             String jsonBooks = response.getEntity(String.class);
 
@@ -194,7 +193,7 @@ public class LibraryRESTServiceClient implements LibraryService {
         return list;
     }
 
-    private ServiceException buildException(ClientResponse response,ObjectMapper mapper) throws ServiceException {
+    private ServiceException buildException(ClientResponse response, ObjectMapper mapper) throws ServiceException {
         LOGGER.info("getAuthorBooks");
         String jsonFaultInfo = response.getEntity(String.class);
 

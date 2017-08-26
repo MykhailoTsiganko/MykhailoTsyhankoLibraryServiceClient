@@ -5,6 +5,8 @@ import org.apache.log4j.Layout;
 import org.apache.log4j.spi.LoggingEvent;
 import org.testng.Reporter;
 
+import javax.swing.*;
+
 public class ReportAppender extends AppenderSkeleton {
 
 	@Override
@@ -14,7 +16,6 @@ public class ReportAppender extends AppenderSkeleton {
 
 	private String eventToString(final LoggingEvent event) {
 		final StringBuilder buff = new StringBuilder(layout.format(event));
-
 		if (layout.ignoresThrowable()) {
 			final String[] s = event.getThrowableStrRep();
 			if (s != null) {
@@ -24,7 +25,7 @@ public class ReportAppender extends AppenderSkeleton {
 			}
 		}
 
-		return buff.toString();
+		return buff.append("\n").toString();
 	}
 
 	@Override
